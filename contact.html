@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>The world most endangered animals</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/brown-bear.png" type="img/png" />
+
+    <!--- CSS --->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+  </head>
+
+
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">why they matter</a></li>
+          <li><a href="about.html">meet them</a></li>
+          <li><a href="donate.html">donate</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="header">
+          <h1> If you have a question or enquiry,<br>
+            please contact us below</h1>
+
+          <p>Contact Form</p>
+        </div>
+
+        <form id="contact_form" name="contact_form" method="post" action="form.php" onsubmit="return validateForm(this)">
+          <fieldset>
+            <legend>
+              Your Details:
+            </legend>
+            <div class="first-name input-section">
+              <label for="firstname" class="label_input_wrap">
+                First Name:
+              </label>
+              <input type="text" name="req_firstname" id="firstname" />
+            </div>
+            <div class="last-name input-section">
+              <label for="lastname" class="label_input_wrap">
+                Last Name:
+              </label>
+              <input type="text" name="req_lastname" id="lastname" />
+            </div>
+            <div class="datepicker input-section">
+              <label for="birthday" class="label_input_wrap">
+                When is your birthday?
+              </label>
+              <input type="date" name="birthday" id="birthday">
+            </div>
+
+            <div class="email input-section">
+              <label for="email" class="label_input_wrap">
+                Email:
+              </label>
+              <input type="email" name="req_email" id="email">
+            </div>
+          </fieldset>
+
+          <br/>
+
+          <fieldset>
+            <legend>
+              Your Review:
+            </legend>
+            <div class="hear-about input-section">
+              <label for="hear-about" class="label_input_wrap">
+                How did you hear about us?
+              </label>
+              <select name="hear-about" id="hear-about">
+                <option value="google">Google</option>
+                <option value="friend">Friend</option>
+                <option value="advert">Advert</option>
+                <option value="other">Other</option>
+              </select>
+
+            </div>
+
+            <div class="comments input-section">
+              <label for="comments" class="label_input_wrap">
+                Comments:
+              </label>
+              <textarea name="comments" id="comments" placeholder="Ask us anything" rows="5" cols="35"></textarea>
+            </div>
+
+            
+          </fieldset>
+
+          <div class="submit">
+            <input  type="submit" value="send" />
+          </div>
+
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
