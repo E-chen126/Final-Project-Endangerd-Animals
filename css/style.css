@@ -301,7 +301,7 @@ li a:hover {
     padding: 20px;
     height: 320px;
     overflow-y: scroll;
-    height: 400px;
+    height: 410px;
 }
 
 #title-1,
@@ -384,4 +384,123 @@ p.btn-skyblue {
   color:#97bdc6;
   background: #F7F4F9;
   transition: .3s;
+}
+
+/*=======================
+
+   Donate Page Styling
+
+=========================*/
+.d {
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 35px;
+    font-size: 45px;
+}
+
+span.highlight {
+    color: #b45539;
+    font-weight: bold;
+}
+
+.f-card {
+  text-align: center;
+}
+
+.flip-card {
+    width: 300px;
+    height: 186px;
+    display: inline-block;
+    background: transparent;
+    margin: 47px;
+}
+
+.flip-card img {
+    width: 300px;
+    height: 186px;
+    object-fit: cover;
+}
+
+.flip-card-back h2 {
+    font-family: 'PT Sans', sans-serif;
+    padding: 0px;
+    font-size: 25px;
+}
+
+.flip-card-back p{
+    font-size: 18px;
+}
+
+.flip-card-back {
+    background-color: #45494e;
+    color: white;
+    transform: rotateY(180deg);
+    padding-top: 40px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.flip-card-back a {
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    transition: .3s;
+    background: #b45539;
+    color: #F7F4F9;
+    padding: 5px 10px;
+}
+
+
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: tranform .6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 1px 4px 0 black;
+}
+
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back{
+  position: absolute;
+  width: 100%
+  height: 100%
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-back a:hover {
+    color: #b45539;
+    background: #F7F4F9;
+    transition: .3s;
+}
+
+
+footer {
+    text-align: center;
+    background: #333333;
+    color: #f7f4f9;
+    font-weight: bold;
+    padding: 20px;
+}
+
+footer a {
+    color:#f7f4f9;
+    font-size: 20px;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+footer a:hover {
+    color: #b45539;
+    transition: .3s;
 }
