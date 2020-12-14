@@ -504,3 +504,104 @@ footer a:hover {
     color: #b45539;
     transition: .3s;
 }
+
+
+
+/*=======================
+
+   Contact Page Styling
+
+=========================*/
+
+.container {
+    max-width: 1000px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 30px;
+}
+.header p {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+
+form {
+  background-color: #B68C5F;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 4px;
+  color: #333333;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align:left;
+}
+
+label {
+  font-weight: bold;
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+.submit input {
+    background-color:#97BDC6;
+    padding: 2px 11px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    transition: .3s;
+}
+
+.input-section{
+  margin: 17px;
+}
+
+
+input {
+    padding: 3px;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 3px;
+    border: none;
+}
+
+textarea,
+select {
+    font-family: 'PT Sans', sans-serif;
+    padding: 3px;
+    border: none;
+    border-radius: 4px;
+}
+
+::placeholder {
+  color: #97BDC6;
+  font-size: 1.5em;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.submit input:hover{
+  color: #97BDC6;
+  background: white;
+  transition: .3s;
+
+}
+
+.submit input {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 10px;
+}

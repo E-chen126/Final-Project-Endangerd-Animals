@@ -43,10 +43,6 @@
         </div>
 
         <form id="contact_form" name="contact_form" method="post" action="form.php" onsubmit="return validateForm(this)">
-          <fieldset>
-            <legend>
-              Your Details:
-            </legend>
             <div class="first-name input-section">
               <label for="firstname" class="label_input_wrap">
                 First Name:
@@ -59,12 +55,6 @@
               </label>
               <input type="text" name="req_lastname" id="lastname" />
             </div>
-            <div class="datepicker input-section">
-              <label for="birthday" class="label_input_wrap">
-                When is your birthday?
-              </label>
-              <input type="date" name="birthday" id="birthday">
-            </div>
 
             <div class="email input-section">
               <label for="email" class="label_input_wrap">
@@ -72,14 +62,10 @@
               </label>
               <input type="email" name="req_email" id="email">
             </div>
-          </fieldset>
 
-          <br/>
 
-          <fieldset>
-            <legend>
-              Your Review:
-            </legend>
+
+
             <div class="hear-about input-section">
               <label for="hear-about" class="label_input_wrap">
                 How did you hear about us?
@@ -101,7 +87,7 @@
             </div>
 
 
-          </fieldset>
+
 
           <div class="submit">
             <input  type="submit" value="send" />
@@ -110,5 +96,13 @@
         </form>
       </div>
     </main>
+    <footer>
+      <p>Follow Us On
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+
+        <a href="https://instragram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+      </p>
+    </footer>
   </body>
 </html>
