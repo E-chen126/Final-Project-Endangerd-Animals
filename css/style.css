@@ -40,7 +40,7 @@ header {
 
 header nav ul li {
     display: inline-block;
-    font-size: 22px;
+    font-size: 20px;
     margin-right: 184px;
     margin-left: 108px;
 }
@@ -189,4 +189,199 @@ li a:hover {
 .right-image {
     height: 563px;
     object-fit: cover;
+}
+
+
+/*=======================
+
+   About Page Styling
+
+=========================*/
+
+
+.top-hero{
+    background: url("../images/5background.jpg") center/cover no-repeat;
+    min-height: 50vh;
+    position: relative;
+}
+
+#top {
+    position: absolute;
+    margin-top: 146px;
+    color: #F7F4F9;
+    left: 50%;
+    font-size: 48px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 12%;
+    text-shadow: 0px -1px 4px #333333;
+    width: 1000px;
+}
+
+.navigation-bar {
+    padding-right: .8125rem;
+    padding-left: .8125rem;
+    text-align: center;
+    font-size: 16px;
+    margin: 60px 0px;
+}
+
+
+
+.navigation-bar a {
+    display: inline-block;
+    text-decoration: none;
+    color: #333333;
+    border: 1px solid #333333;
+    border-radius: 3px;
+    padding: 5px 40px;
+    margin: 0 29px;
+    transition: .3s
+}
+
+
+.navigation-bar a:hover {
+    color: white;
+    background-color: #333333;
+    border: 1px solid transparent;
+    transition: .3s;
+}
+
+.elephants,
+.Tigers,
+.rhinoceros,
+.sea-turtles,
+.gorillas {
+    display: flex;
+    margin: 10px 40px 0px;
+    justify-content: center;
+    position: relative;
+}
+
+
+.eimg,
+.j-img,
+.g-img {
+    display: inline-block;
+    float: left;
+    position: relative;
+
+}
+
+
+.ei,
+.ti,
+.ji,
+.si {
+    width: 420px;
+    height: 320px;
+    object-fit: cover;
+}
+
+.gi {
+    width: 420px;
+    object-fit: cover;
+    height: 410px;
+}
+
+.e-content,
+.t-content,
+.j-content,
+.s-content {
+    float: left;
+    background: #e8e8dd87;
+    padding: 20px;
+    height: 320px;
+    overflow-y: scroll;
+}
+
+.g-content {
+    float: left;
+    background: #e8e8dd87;
+    padding: 20px;
+    height: 320px;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+#title-1,
+#title-2,
+#title-3,
+#title-4,
+#title-5 {
+    display: block;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ddd9ce;
+}
+
+.text {
+    font-size: 16px;
+    margin-top:10px;
+}
+
+.text p{
+  padding:5px;
+}
+
+
+.elephants-link,
+.tiger-link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #b45539;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+.tiger-link {
+    margin-top: 35px;
+}
+
+.text a {
+    color: #b45539;
+    text-decoration: none;
+    transition: .3s
+}
+
+.elephants-link:hover {
+    color: #5f2b1c;
+    transition: .3s;
+}
+
+.tiger-link:hover {
+    color: #5f2b1c;
+    transition: .3s;
+}
+
+
+.text a:hover {
+    color: #5f2b1c;
+    transition: .3s;
+}
+
+p.btn-skyblue {
+    text-align: center;
+    margin: 50px;
+}
+
+.btn-skyblue a {
+    background: #97bdc6;
+    color: #F7F4F9;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.btn-skyblue a:hover{
+  color:#97bdc6;
+  background: #F7F4F9;
+  transition: .3s;
 }
