@@ -152,10 +152,7 @@ li a:hover {
 =========================*/
 
 .content {
-  display: flex;
-  justify-content: center;
-  margin: 60px 40px;
-  position: relative;
+    margin: 78px 40px;
 }
 
 .left-half {
@@ -163,12 +160,9 @@ li a:hover {
   padding:20px;
   max-height: 563px;
   overflow-y: scroll;
+  width: 63%
 }
 
-.left-half h1 {
-    font-size: 38px;
-    margin-bottom: 30px;
-}
 
 .left-half h1 {
     font-size: 40px;
@@ -187,8 +181,33 @@ li a:hover {
 }
 
 .right-image {
-    height: 563px;
+    margin-top: 0px;
+    width: 480px;
+    height: 606px;
     object-fit: cover;
+}
+
+.slick-slider {
+    position: absolute;
+    left: 62%;
+    width: 480px;
+    display: block;
+
+}
+
+
+.slick-prev:before {
+    content: '\f104';
+    font-family: "FontAwesome";
+    color: #333333;
+    font-size: 27px;
+}
+
+.slick-next:before {
+    content: '\f105';
+    font-family: "FontAwesome";
+    font-size: 27px;
+    color: #333333;
 }
 
 
