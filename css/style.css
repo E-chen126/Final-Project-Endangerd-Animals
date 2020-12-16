@@ -58,8 +58,12 @@ header a {
     transition: .3s;
 }
 
-.svg-inline--fa {
-  padding-right: 3px;
+svg.svg-inline--fa.fa-heart.fa-w-16 {
+    margin-right: 3px;
+}
+
+::before {
+    margin-right: 3px;
 }
 
 li a:hover {
